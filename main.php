@@ -7,9 +7,10 @@ return 0;
 }
 else ;
 foreach($rssSourceName as $rssName) {
-$rssName = "./text/".$rssName;
-include $rssName;
-$html = getRSS(getItemURL());
+$rssNameTmp = "./text/".$rssName.".php";
+include $rssNameTmp;
+$rssFunctionName = "get".$rssName."ItemURL";
+$html = getRSS(call_user_func($rssFunctionName));
 foreach($html as $r) {
 	foreach($r as $a) {
 		echo $a."<br />";

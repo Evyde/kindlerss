@@ -1,8 +1,8 @@
 <?php
-function getItemURL() {
+function getIfengItemURL() {
 	return "http://news.ifeng.com/mil/rss/index.xml";
 }
-function getContent($html) {
+function getIfengContent($html) {
 	return "Success!";
 }
 ?>

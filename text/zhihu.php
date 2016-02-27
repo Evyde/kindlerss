@@ -1,8 +1,8 @@
 <?php
-function getItemURL() {
+function getZhihuItemURL() {
 	return "https://www.zhihu.com/rss";
 }
-function getContent($html) {
+function getZhihuContent($html) {
 	return $html;
 }
 ?>
