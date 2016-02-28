@@ -1,0 +1,43 @@
+img, object {max-width: 100%;}
+@font-face
+{
+font-family: fontOfApple;
+src: url('./方正兰亭超细黑简体.TTF');
+}
+body {
+background-image: url(./1.jpg);
+max-width:1383px;
+max-height:748px;
+font-family:fontOfApple;
+color:#FFFFFF
+}
+p {font-size:1.5em;}
+form {
+width: 400px;
+height: auto;
+padding: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-left: -190px;
+margin-top: -260px;
+}
+input {
+background:transparent;
+border:1px solid #ffffff;
+font-family: fontOfApple;
+font-size:1.5em;
+color:#FFFFFF;
+
+}
+button {
+font-family: fontOfApple;
+font-size:1.5em;
+color:#FFFFFF;
+background:transparent;
+}
+img {
+width: 100%;
+max-width: 1383px;
+max-height: 748px;
+}
