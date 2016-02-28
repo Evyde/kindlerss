@@ -6,9 +6,8 @@ src: url('./方正兰亭超细黑简体.TTF');
 }
 body {
 background-image: url(./1.jpg);
-max-width:1383px;
-max-height:748px;
 font-family:fontOfApple;
+background-size:100%,100%;
 color:#FFFFFF
 }
 p {font-size:1.5em;}
@@ -38,6 +37,4 @@ background:transparent;
 }
 img {
 width: 100%;
-max-width: 1383px;
-max-height: 748px;
 }
